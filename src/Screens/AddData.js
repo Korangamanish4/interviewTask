@@ -25,7 +25,7 @@ const AddData = () => {
         const localName = localStorage.getItem('Name')
         const localDOB = localStorage.getItem('DOB')
         const localNumber = localStorage.getItem('Phone No')
-        if (localName.toUpperCase() == name.toUpperCase() && localDOB == dob && localNumber == number){
+        if (localName?.toUpperCase() == name?.toUpperCase() && localDOB == dob && localNumber == number){
             alert("DATA already Exists")
             setTimeout(() => {
                 navigate('/')
