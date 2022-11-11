@@ -1,0 +1,70 @@
+.container {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card button {
+    height: 50px;
+    width: 80px;
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+
+.card button:hover {
+cursor: pointer;
+background-color: orangered;
+color: white;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.content form input {
+    width: 270px;
+    height: 30px;
+}
+
+.content form button{
+    width: 270px;
+    height: 30px;
+}
+
+.content form button:hover {
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+}
+
